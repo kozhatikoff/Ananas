@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+main{
+    margin: 0 auto;
+    padding-left: 60px;
+    padding-top: 34px;
+    border-radius: 5px;
+    padding-right: 60px;
+    background-color:#360160;
+    width: 500px;
+    height: 700px;
+}
+.mainView{
+    width: 373px;
+    height: 46px;
+}
+.mainButton{
+    width: 380px;
+    display: flex;
+    margin-top: 29px;
+    justify-content:space-between ;
+}
+.tips{
+    color: gray;
+}
+.footTwo{
+    align-items: center;
+    display: flex;
+}
+.footOne{
+    align-items: center;
+    display: flex;
+}
+.percent{
+    width: 380px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.summ{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+h1{
+    color: #FFDC40;
+    font-size: 52px;
+    margin-top: 0;
+    margin-bottom: 42px;
+}
+.peop{
+    width: 380px;
+    height: 50px;
+}
+
+.score{
+    font-size: 20px;
+    border: 0 solid;
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    width: 180px;
+    background-color: #FFDC40;
+    height: 60px;
+    align-items: center;
+}
+.clear{
+    border: 0 solid;
+    font-size:20px;
+    border-radius: 15px;
+    width: 180px;
+    color: #FFFFFF;
+    background-color: #7C7A7A;
+    height: 60px;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+.each{
+    color: #B6B6B6;
+    margin-left: 15px;
+    margin-top: 19px;
+}
+.tipsName{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.tips{
+    width: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.each{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.score:hover{
+    cursor: pointer;
+    position: relative;
+    transform: translateY(-5px);
+    box-shadow: 5px 10px 5px black;
+}
+.view{
+    font-size: 20px;
+}
+.clear:hover{
+    cursor: pointer;
+    position: relative;
+    box-shadow: 5px 5px 5px black;
+    transform: translateY(-5px);
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Калькулятор<br>чаевых</h1>
+        <label class="summ">
+            Сумма по счету
+            <div>
+                <input value="abcdefgh" id="textInput" class="mainView" type="number" placeholder="Введите сумму">
+            </div>
+        </label>
+        <label class="summ">
+        Качество обслуживания
+            <div>
+                <select class="percent">
+                    <option value="bad">Плохое(0%)</option>
+                    <option value="fine">Нормально(5%)</option>
+                    <option value="good">Хорошее(10%)</option>
+                    <option value="exc">Отличное(15%)</option>
+                </select>
+            </div>
+        </label>
+        <label class="summ">
+            Количество человек
+            <div>
+                <input  id="text" class="peop" type="number" value="abc" placeholder="Введите кол-во человек">
+            </div>
+        </label>
+        <div class="mainButton">
+            <button class="score">Посчитать</button>
+            <button id="clearButton" class="clear" type="reset">Сбросить</button>
+        </div>
+        <div class="footOne">
+            <p class="tipsName">Чаевые:</p>
+            <p class="view"></p>
+            <p class="each">(с каждого)</p>
+        </div>
+        <div class="footTwo">
+            <p class="tipsName">Всего:</p>
+            <p class="conc"></p>
+            <p class="each">(с каждого)</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
